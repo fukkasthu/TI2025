@@ -1,0 +1,7 @@
+<h1>{{ contacto.nombre_completo }}</h1>
+<p>Email: {{ contacto.correo_electronico }}</p>
+<p>Teléfono(s): {{ contacto.numeros_telefonicos }}</p>
+<p>Dirección: {{ contacto.direccion_fisica }}</p>
+<p>Fecha de Nacimiento: {{ contacto.fecha_nacimiento }}</p>
+<p>Notas: {{ contacto.notas_adicionales }}</p>
+<a href="{% url 'listar_contactos' %}">Volver</a>
